@@ -1,0 +1,15 @@
+{
+  "files.associations": {
+    "ble_advdata.h": "c",
+    "softdevice_handler.h": "c",
+    "app_error.h": "c",
+    "sdk_errors.h": "c",
+    "nordic_common.h": "c",
+    "bsp_config.h": "c",
+    "bsp.h": "c",
+    "boards.h": "c",
+    "pca20006.h": "c",
+    "nrf_drv_adc.h": "c",
+    "sdk_config.h": "c"
+  }
+}

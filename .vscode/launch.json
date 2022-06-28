@@ -1,0 +1,31 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "gdb1",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/nrf51822_xxaa.out",
+      "miDebuggerServerAddress": "192.168.1.135:3333",
+      "cwd": "${workspaceRoot}",
+      "externalConsole": true,
+      "miDebuggerPath": "gdb-multiarch",
+      "linux": {
+        "MIMode": "gdb"
+      }
+    },
+    {
+      "type": "gdb",
+      "request": "attach",
+      "name": "Attach to gdbserver",
+      "executable": "${workspaceRoot}/_build/nrf51822_xxaa.out",
+      "target": "192.168.1.135:3333",
+      "remote": true,
+      "cwd": "${workspaceRoot}",
+      "gdbpath": "gdb-multiarch",
+    }
+  ]
+}
